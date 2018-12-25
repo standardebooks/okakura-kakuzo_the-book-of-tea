@@ -36,7 +36,7 @@
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/769</meta>
 		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/769</meta>
 		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/769</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
@@ -45,34 +45,33 @@
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/769</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Book_of_Tea</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/okakura-kakuzo_the-book-of-tea</meta>
 		<dc:creator id="author">Okakura Kakuzo</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Kakuzo, Okakura</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Okakura_Kakuzo</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHORNACOAFLINK</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81023171</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<dc:contributor id="artist">Claude Monet</dc:contributor>
+		<meta property="file-as" refines="#artist">Monet, Claude</meta>
+    <meta property="se:name.person.full-name" refines="#author">Oscar-Claude Monet</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Claude_Monet</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79055527.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Matthew</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Matthew</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Gabrielle Harbowy</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Harbowy, Gabrielle</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">Tassos Natsakis</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Natsakis, Tassos</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.natsakis.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -80,22 +79,40 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
-	<manifest>
-		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
-		<item href="css/core.css" id="core.css" media-type="text/css"/>
-		<item href="css/local.css" id="local.css" media-type="text/css"/>
-		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
-		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
-		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
-		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
-	</manifest>
-	<spine>
-		<itemref idref="titlepage.xhtml"/>
-		<itemref idref="imprint.xhtml"/>
-		<itemref idref="colophon.xhtml"/>
-		<itemref idref="uncopyright.xhtml"/>
-	</spine>
+  <manifest>
+	  <item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+	  <item href="css/core.css" id="core.css" media-type="text/css"/>
+	  <item href="css/local.css" id="local.css" media-type="text/css"/>
+	  <item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+	  <item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+	  <item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+	  <item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
+	  <item href="text/chapter-2.xhtml" id="chapter-2.xhtml" media-type="application/xhtml+xml"/>
+	  <item href="text/chapter-3.xhtml" id="chapter-3.xhtml" media-type="application/xhtml+xml"/>
+	  <item href="text/chapter-4.xhtml" id="chapter-4.xhtml" media-type="application/xhtml+xml"/>
+	  <item href="text/chapter-5.xhtml" id="chapter-5.xhtml" media-type="application/xhtml+xml"/>
+	  <item href="text/chapter-6.xhtml" id="chapter-6.xhtml" media-type="application/xhtml+xml"/>
+	  <item href="text/chapter-7.xhtml" id="chapter-7.xhtml" media-type="application/xhtml+xml"/>
+	  <item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+	  <item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+	  <item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
+	  <item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+	  <item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+	  <item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+	  <itemref idref="titlepage.xhtml"/>
+	  <itemref idref="imprint.xhtml"/>
+	  <itemref idref="halftitle.xhtml"/>
+	  <itemref idref="chapter-1.xhtml"/>
+	  <itemref idref="chapter-2.xhtml"/>
+	  <itemref idref="chapter-3.xhtml"/>
+	  <itemref idref="chapter-4.xhtml"/>
+	  <itemref idref="chapter-5.xhtml"/>
+	  <itemref idref="chapter-6.xhtml"/>
+	  <itemref idref="chapter-7.xhtml"/>
+	  <itemref idref="endnotes.xhtml"/>
+	  <itemref idref="colophon.xhtml"/>
+	  <itemref idref="uncopyright.xhtml"/>
+  </spine>
 </package>
