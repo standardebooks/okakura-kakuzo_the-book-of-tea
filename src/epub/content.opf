@@ -37,10 +37,12 @@
 		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/769</meta>
 		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/769</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">The Book of Tea is a long essay exploring the relationship between teaism, taoism, and the aesthetics of Japanese culture.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONGDESCRIPTION
+			&lt;p&gt;&lt;i&gt;The Book of Tea&lt;/i&gt; is one of the great English tea classics, and it is a long essay about the connetion between Teaism, Taoism, and the aesthetics of Japanese culture. It was written by Okakura Kakuzo in English and was published in the United States in 1906.&lt;/p&gt;
+			&lt;p&gt;The essay targets a western audience and seeks to explain the importance of Tea in Japanese culture, not just as a beverage, but as a form of art expressed in different aspects. After a brief introduction of the Western attitude towards tea, Kakuzo demystifies the admiration of the Japanese people for this green plant by presenting the differnt schools of tea, its connection to Zen philosophy, and how it has affected the arts. The famous tea-ceremony and its rigid formalities are explained, together with the contributions of the great tea-masters.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The book of Tea&lt;/i&gt; is considered by many one of the first books to introduce Eastern culture and philosophy to the Western world. This was possible due to Kakuzo’s early contact with the English language and Western thought, but also due to his later involvement in the Asian art division of the Boston Museum of Fine Arts, which he came to be its head in 1910.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
