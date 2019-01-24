@@ -40,7 +40,7 @@
 		<dc:description id="description">The Book of Tea is a long essay exploring the relationship between teaism, taoism, and the aesthetics of Japanese culture.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Book of Tea&lt;/i&gt; is one of the great English tea classics, and it is a long essay about the connection between Teaism, Taoism, and the aesthetics of Japanese culture. It was written by Okakura Kakuzo in English and was published in the United States in 1906.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Book of Tea&lt;/i&gt; is one of the great English tea classics, and it is a long essay about the connection between Teaism, Taoism, and the aesthetics of Japanese culture. It was written by Okakura Kakuzō in English and was published in the United States in 1906.&lt;/p&gt;
 			&lt;p&gt;The essay targets a western audience and seeks to explain the importance of Tea in Japanese culture, not just as a beverage, but as a form of art expressed in different aspects. After a brief introduction of the Western attitude towards tea, Okakura demystifies the admiration of the Japanese people for this green plant by presenting the different schools of tea, its connection to Zen philosophy, and how it has affected the arts. The famous tea-ceremony and its rigid formalities are explained, together with the contributions of the great tea-masters.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The book of Tea&lt;/i&gt; is considered by many one of the first books to introduce Eastern culture and philosophy to the Western world. This was possible due to Okakura’s early contact with the English language and Western thought, but also due to his later involvement in the Asian art division of the Boston Museum of Fine Arts, which he came to be its head in 1910.&lt;/p&gt;
 		</meta>
@@ -51,11 +51,11 @@
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Book_of_Tea</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/kakuzo-okakura_the-book-of-tea</meta>
-		<dc:creator id="author">Kakuzo Okakura</dc:creator>
-		<meta property="file-as" refines="#author">Okakura, Kakuzo</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Okakura_Kakuzo</meta>
+		<dc:creator id="author">Kakuzō Okakura</dc:creator>
+		<meta property="file-as" refines="#author">Okakura, Kakuzō</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Okakura_Kakuzō</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81023171</meta>
-    <meta property="alternate-script" refines="#author">Okakura Kakuzō</meta>
+		<meta property="alternate-script" refines="#author">岡倉 覚三</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Claude Monet</dc:contributor>
 		<meta property="file-as" refines="#artist">Monet, Claude</meta>
