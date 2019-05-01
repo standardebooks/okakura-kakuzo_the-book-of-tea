@@ -46,7 +46,7 @@
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/769</dc:source>
-		<dc:souce>https://archive.org/details/bookoftea00okakrich</dc:souce>
+		<dc:source>https://archive.org/details/bookoftea00okakrich</dc:source>
 		<meta property="se:word-count">18025</meta>
 		<meta property="se:reading-ease.flesch">60.14</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Book_of_Tea</meta>
