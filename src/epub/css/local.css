@@ -23,10 +23,6 @@ section[epub|type~="dedication"] p{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] + p{
-	text-indent: 0;
-}
-
 abbr.era{
 	font-variant: all-small-caps;
 }
