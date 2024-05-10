@@ -48,7 +48,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/769</dc:source>
 		<dc:source>https://archive.org/details/bookoftea00okakrich</dc:source>
 		<meta property="se:word-count">18034</meta>
-		<meta property="se:reading-ease.flesch">60.14</meta>
+		<meta property="se:reading-ease.flesch">60.35</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Book_of_Tea</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/okakura-kakuzo_the-book-of-tea</meta>
 		<dc:creator id="author">Okakura Kakuzō</dc:creator>
