@@ -52,7 +52,7 @@
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Book_of_Tea</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/okakura-kakuzo_the-book-of-tea</meta>
 		<dc:creator id="author">Okakura Kakuzō</dc:creator>
-		<meta property="file-as" refines="#author">Kakuzō, Okakura</meta>
+		<meta property="file-as" refines="#author">Okakura, Kakuzō</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Okakura_Kakuzō</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81023171</meta>
 		<meta property="alternate-script" refines="#author">岡倉 覚三</meta>
