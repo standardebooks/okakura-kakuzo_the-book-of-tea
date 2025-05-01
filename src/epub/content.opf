@@ -55,7 +55,7 @@
 		<meta property="file-as" refines="#author">Okakura, Kakuzō</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Okakura_Kakuzō</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81023171</meta>
-		<meta property="alternate-script" refines="#author">岡倉 覚三</meta>
+		<meta property="alternate-script" refines="#author" xml:lang="ja">岡倉 覚三</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Claude Monet</dc:contributor>
 		<meta property="file-as" refines="#artist">Monet, Claude</meta>
