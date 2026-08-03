@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/okakura-kakuzo/the-book-of-tea</dc:identifier>
 		<dc:date>2019-01-24T17:02:28Z</dc:date>
@@ -40,12 +40,12 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85069725</meta>
 		<meta property="schema:genre">Nonfiction</meta>
-		<dc:description id="description">The Book of Tea is a long essay exploring the relationship between teaism, taoism, and the aesthetics of Japanese culture.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>The Book of Tea is a long essay exploring the relationship between teaism, taoism, and the aesthetics of Japanese culture.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Book of Tea&lt;/i&gt;, one of the great English tea classics, is a long essay about the connection between teaism, Taoism, and the aesthetics of Japanese culture. It was written by &lt;a href="https://standardebooks.org/ebooks/okakura-kakuzo"&gt;Okakura Kakuzō&lt;/a&gt; in English and was published in the United States in 1906.&lt;/p&gt;
 			&lt;p&gt;The essay targets a Western audience and seeks to explain the importance of tea in Japanese culture, not just as a beverage, but as a form of art expressed in different aspects. After a brief introduction of the Western attitude towards tea, Okakura demystifies the admiration of the Japanese people for this green plant by presenting the different schools of tea, its connection to Zen philosophy, and how it has affected the arts. The famous tea ceremony and its rigid formalities are explained, together with the contributions of the great tea-masters.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The Book of Tea&lt;/i&gt; is considered by many to be one of the first books to introduce Eastern culture and philosophy to the Western world. This was possible due to Okakura’s early contact with the English language and Western thought, but also due to his later involvement in the Asian art division of the Boston Museum of Fine Arts, which he came to head in 1910.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/769</dc:source>
 		<dc:source>https://archive.org/details/bookoftea00okakrich</dc:source>
