@@ -40,7 +40,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85069725</meta>
 		<meta property="schema:genre">Nonfiction</meta>
-		<dc:abstract>The Book of Tea is a long essay exploring the relationship between teaism, taoism, and the aesthetics of Japanese culture.</dc:abstract>
+		<meta property="schema:abstract">The Book of Tea is a long essay exploring the relationship between teaism, taoism, and the aesthetics of Japanese culture.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Book of Tea&lt;/i&gt;, one of the great English tea classics, is a long essay about the connection between teaism, Taoism, and the aesthetics of Japanese culture. It was written by &lt;a href="https://standardebooks.org/ebooks/okakura-kakuzo"&gt;Okakura Kakuzō&lt;/a&gt; in English and was published in the United States in 1906.&lt;/p&gt;
 			&lt;p&gt;The essay targets a Western audience and seeks to explain the importance of tea in Japanese culture, not just as a beverage, but as a form of art expressed in different aspects. After a brief introduction of the Western attitude towards tea, Okakura demystifies the admiration of the Japanese people for this green plant by presenting the different schools of tea, its connection to Zen philosophy, and how it has affected the arts. The famous tea ceremony and its rigid formalities are explained, together with the contributions of the great tea-masters.&lt;/p&gt;
